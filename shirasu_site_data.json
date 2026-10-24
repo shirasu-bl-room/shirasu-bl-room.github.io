@@ -1,0 +1,81 @@
+{
+  "formatVersion": 2,
+  "exportedAt": "2026-10-24T11:41:18.260Z",
+  "books": [
+    {
+      "id": "1792393324356-047b19fec55ec",
+      "title": "恋心開発実況",
+      "author": "野白ぐり",
+      "readVolumes": "",
+      "publishedVolumes": "",
+      "status": "完結済み",
+      "isbn": "9784344857438",
+      "review": "尊みがすごい",
+      "sourceUrl": "https://www.gentosha-comics.net/book/b676083.html",
+      "rightsStatus": "掲載条件を確認済み",
+      "rightsNotes": "",
+      "youtube": "",
+      "cover": "",
+      "createdAt": 1792393324356
+    },
+    {
+      "id": "1792584804825-1f4280781c83b8",
+      "title": "きみ色に汚されたい",
+      "author": "さがのひを",
+      "readVolumes": "全巻",
+      "publishedVolumes": "全2巻",
+      "status": "完結済み",
+      "isbn": "",
+      "review": "高身長イケメンサイコー",
+      "sourceUrl": "",
+      "rightsStatus": "未確認",
+      "rightsNotes": "",
+      "youtube": "",
+      "cover": "",
+      "createdAt": 1792584804826
+    },
+    {
+      "id": "1792585318321-4e209ccb679a6",
+      "title": "9年目の伏線回収",
+      "author": "丸山ハシシ",
+      "readVolumes": "全巻",
+      "publishedVolumes": "全1巻",
+      "status": "完結済み",
+      "isbn": "9784199610875",
+      "review": "もっと早く伏線回収しようよ！",
+      "sourceUrl": "",
+      "rightsStatus": "未確認",
+      "rightsNotes": "",
+      "youtube": "",
+      "cover": "",
+      "createdAt": 1792585318321
+    },
+    {
+      "id": "1792585579124-72d088d4d0a95",
+      "title": "好きだよグッドボーイ",
+      "author": "花好なぽ",
+      "readVolumes": "4巻",
+      "publishedVolumes": "既刊４巻",
+      "status": "連載中",
+      "isbn": "9784799762448",
+      "review": "ギャップエグすぎ蒼くん",
+      "sourceUrl": "",
+      "rightsStatus": "未確認",
+      "rightsNotes": "",
+      "youtube": "",
+      "cover": "",
+      "createdAt": 1792585579124
+    }
+  ],
+  "later": [
+    {
+      "id": "1792480797728-5223a883b56c98",
+      "title": "ギブン",
+      "author": "キヅナツキ",
+      "note": "",
+      "url": "",
+      "createdAt": 1792480797728
+    }
+  ],
+  "snacks": []
+}
