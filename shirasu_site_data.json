@@ -1,6 +1,6 @@
 {
   "formatVersion": 2,
-  "exportedAt": "2026-10-24T11:41:18.260Z",
+  "exportedAt": "2026-10-25T14:24:21.056Z",
   "books": [
     {
       "id": "1792393324356-047b19fec55ec",
@@ -65,6 +65,22 @@
       "youtube": "",
       "cover": "",
       "createdAt": 1792585579124
+    },
+    {
+      "id": "shirasu-20261025-koneko-kun-pet",
+      "title": "子猫くんのペット",
+      "author": "田中森よこた",
+      "readVolumes": "全巻",
+      "publishedVolumes": "全1巻",
+      "status": "完結済み",
+      "isbn": "",
+      "review": "",
+      "sourceUrl": "https://books.rakuten.co.jp/rk/680c4298341336b5bf4791cb1a250958/",
+      "rightsStatus": "未確認",
+      "rightsNotes": "",
+      "youtube": "",
+      "cover": "",
+      "createdAt": 1792938261056
     }
   ],
   "later": [
