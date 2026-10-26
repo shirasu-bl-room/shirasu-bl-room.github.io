@@ -3150,6 +3150,7 @@ document.getElementById('letterForm').addEventListener('submit',e=>{e.preventDef
 
 
 
+
 </body>
 
 
@@ -3518,7 +3519,72 @@ document.getElementById('letterForm').addEventListener('submit',e=>{e.preventDef
   }
 })();
 </script>
+<script id="shirasu-mobile-book-search-return">
+(function () {
+  const search = document.getElementById('bookSearch');
+  const readPanel = document.getElementById('read');
+  if (!search || !readPanel) return;
 
+  const mobile = window.matchMedia('(max-width: 680px)');
+  const button = document.createElement('button');
+  button.type = 'button';
+  button.textContent = '↑ 検索欄に戻る';
+  button.setAttribute('aria-label', '既読本の検索欄に戻る');
+
+  Object.assign(button.style, {
+    position: 'fixed',
+    right: '14px',
+    bottom: '84px',
+    zIndex: '1000',
+    display: 'none',
+    padding: '10px 13px',
+    border: '1px solid #e8c9df',
+    borderRadius: '999px',
+    background: 'rgba(255,242,249,.97)',
+    color: '#765674',
+    font: '600 13px "Zen Maru Gothic", sans-serif',
+    boxShadow: '0 3px 10px rgba(132,87,120,.18)',
+    cursor: 'pointer'
+  });
+
+  document.body.appendChild(button);
+
+  function updateButton() {
+    const rect = readPanel.getBoundingClientRect();
+    const visible = !readPanel.hasAttribute('hidden');
+    button.style.display =
+      mobile.matches && visible && window.scrollY > 180 &&
+      rect.bottom > 120 && rect.top < window.innerHeight - 100
+        ? 'block' : 'none';
+  }
+
+  button.addEventListener('click', function () {
+    const top = search.getBoundingClientRect().top +
+      window.scrollY - 135;
+    window.scrollTo({ top: Math.max(0, top), behavior: 'smooth' });
+    window.setTimeout(function () {
+      search.focus({ preventScroll: true });
+    }, 450);
+  });
+
+  window.addEventListener('scroll', updateButton, { passive: true });
+  window.addEventListener('resize', updateButton);
+
+  document.querySelectorAll('nav.illustration-nav button').forEach(function (tab) {
+    tab.addEventListener('click', function () {
+      window.setTimeout(updateButton, 150);
+    });
+  });
+
+  if (mobile.addEventListener) {
+    mobile.addEventListener('change', updateButton);
+  } else {
+    mobile.addListener(updateButton);
+  }
+
+  updateButton();
+})();
+</script>
 
 
 
