@@ -1,6 +1,6 @@
 {
   "formatVersion": 2,
-  "exportedAt": "2026-10-25T14:24:21.056Z",
+  "exportedAt": "2026-10-26T07:46:25.890Z",
   "books": [
     {
       "id": "1792393324356-047b19fec55ec",
@@ -11,8 +11,8 @@
       "status": "完結済み",
       "isbn": "9784344857438",
       "review": "尊みがすごい",
-      "sourceUrl": "https://www.gentosha-comics.net/book/b676083.html",
-      "rightsStatus": "掲載条件を確認済み",
+      "sourceUrl": "",
+      "rightsStatus": "許可・条件が不明のため画像なし",
       "rightsNotes": "",
       "youtube": "",
       "cover": "",
@@ -67,7 +67,7 @@
       "createdAt": 1792585579124
     },
     {
-      "id": "shirasu-20261025-koneko-kun-pet",
+      "id": "1792927232833-ce00d7eefec05",
       "title": "子猫くんのペット",
       "author": "田中森よこた",
       "readVolumes": "全巻",
@@ -80,7 +80,7 @@
       "rightsNotes": "",
       "youtube": "",
       "cover": "",
-      "createdAt": 1792938261056
+      "createdAt": 1792927232833
     }
   ],
   "later": [
